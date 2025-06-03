@@ -112,7 +112,7 @@ st.markdown("""The word clouds above visualize the top TF-IDF weighted words (in
 Note that the model's sentiment analysis flags words such as 'hours', and 'addiction' negatively even though players tend to use these terms in a positive context regarding how much time they have played the game for. We will see in future analyses
 that this results in some thumbs-up reviews being flagged with negative sentiment.""")
 
-st.subheader("📊 Additional Visualizations")
+st.subheader("Additional Visualizations")
 # Interactive Sentiment Confidence Histogram
 st.markdown("### Interactive: Sentiment Confidence by Class")
 
