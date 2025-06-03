@@ -1,9 +1,9 @@
-streamlit
 pandas
 numpy
+streamlit
 matplotlib
+scikit-learn
 nltk
 wordcloud
-sklearn
-altair
 transformers
+altair
