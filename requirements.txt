@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+matplotlib
+nltk
+wordcloud
+sklearn
+altair
+transformers
