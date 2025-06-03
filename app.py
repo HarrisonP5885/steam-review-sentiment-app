@@ -12,13 +12,13 @@ import altair as alt
 st.set_page_config(page_title="Steam Review Sentiment", layout="wide")
 
 # Title
-st.title("🎮 'Stardew Valley' Steam Game Review Sentiment Dashboard")
+st.title("'Stardew Valley' Steam Game Review Sentiment Dashboard")
 st.markdown("This dashboard analyzes user reviews using Hugging Face transformers for sentiment classification and visualizes word frequency. Additional plots to analyze the efficacy of the sentiment classification are also shown.")
 
 # Methodology
-st.subheader("🧾 Methodology Overview")
+st.subheader("Methodology Overview")
 st.markdown("""
-### 🕸️ Review Collection via Steam JSON API
+### Review Collection via Steam JSON API
 
 Instead of traditional web scraping, we retrieved game reviews using **Steam's JSON API**. This allowed for structured and efficient access to review data.
 
@@ -33,7 +33,7 @@ This provided a clean dataset ready for sentiment analysis.
 
 ---
 
-### 🤖 Sentiment Analysis with DistilBERT
+### Sentiment Analysis with DistilBERT
 
 We used a **pretrained transformer model** from Hugging Face to analyze sentiment.
 
